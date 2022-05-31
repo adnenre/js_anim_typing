@@ -1,0 +1,24 @@
+{
+  "name": "js-typewriter",
+  "version": "1.0.0",
+  "description": "a simple module to have an animated typed text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnenre/js_anim_typing.git"
+  },
+  "keywords": [
+    "typed",
+    "animation",
+    "text"
+  ],
+  "author": "adnen rebai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adnenre/js_anim_typing/issues"
+  },
+  "homepage": "https://github.com/adnenre/js_anim_typing#readme"
+}
