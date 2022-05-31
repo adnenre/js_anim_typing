@@ -1,4 +1,4 @@
-import TypeText from "./script.js";
+import TypeText from "./TypeText.js";
 
 const texts = [
   "Hi, how are you ?",
