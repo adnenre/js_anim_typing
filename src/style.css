@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #ce3635;
+  text-align: center;
+  color: #fff;
+  height: 100%;
+}
+
+* {
+  color: #fff;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+h1 {
+  letter-spacing: 0.1em; /* Adjust as needed */
+  position: relative;
+  margin: auto;
+  min-height: 40px;
+}
+h1::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 2px;
+
+  background: white;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    background: transparent;
+  }
+  50% {
+    background: white;
+  }
+}
